@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<button id="start-game-button">Click To Start Game</button> <!-- Added Start Game button -->
+
+<div class="game-container" id="game-container"> <!-- Added id for easier access -->
+    <h1>Word Check</h1>
+    <div id="time-left">Time: 15</div>
+
+    <div id="word-letters"></div>
+
+    <input type="text" id="input-field" placeholder="Type The Word ">
+
+    <button id="check-button">Check</button>
+
+    <div id="score">Score: <span id="score-value">0</span></div>
+    <div id="high-score">High Score: <span id="high-score-value">0</span></div>
+
+    <div id="game-over">
+        <h2>Game Over!</h2>
+        <p>Your final score is: <span id="final-score"></span></p>
+        <button id="new-game-button">Start A New Game</button>
+    </div>
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
